@@ -23,7 +23,16 @@ Study Python
 ------------
 <img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EB%8B%A4%EC%9D%B4%EC%98%A4%EB%93%9C.jpg" width="30%" height="40%" ><br>
 다이오드<br>
-
+<img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EC%8A%A4%EC%9C%84%EC%B9%98.jpg" width="30%" height="40%" ><br>
+스위치<br>
+<img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EC%8A%A4%ED%94%BC%EC%BB%A4.jpg" width="30%" height="40%" ><br>
+스피커<br>
+<img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EC%A0%80%ED%95%AD.jpg" width="30%" height="40%" ><br>
+저항<br>
+<img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EC%A0%90%ED%94%84%EC%84%A0.jpg" width="30%" height="40%" ><br>
+점프선(암,수 구분)<br>
+<img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EC%B4%88%EC%9D%8C%ED%8C%8C%EC%84%BC%EC%84%9C.jpg" width="30%" height="40%" ><br>
+초음파 센서<br>
 ## 3. PUTTY 리눅스
 
 ## 4. VNC
