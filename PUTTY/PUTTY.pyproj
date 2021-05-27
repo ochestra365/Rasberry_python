@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3aef3d57-7b21-4005-b85c-cf496a3f0794</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Work\gpio_test.py</StartupFile>
+    <StartupFile>Work\Pysrc\gpio_test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,38 +21,68 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Work\add.py">
+    <Compile Include="Work\Pysrc\add.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Work\cal.py">
+    <Compile Include="Work\Pysrc\cal.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Work\Db\module1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Work\gpio_test.py" />
+    <Compile Include="Work\Pysrc\Flask\appLedTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\gpio_test.py" />
     <Compile Include="Work\Db\sqllite.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Work\hello.py">
+    <Compile Include="Work\Pysrc\hello.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Work\if.py">
+    <Compile Include="Work\Pysrc\if.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Work\int.py">
+    <Compile Include="Work\Pysrc\int.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Work\int2.py">
+    <Compile Include="Work\Pysrc\int2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Work\key_scale.py">
+    <Compile Include="Work\Pysrc\key_scale.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Work\LED.py">
+    <Compile Include="Work\Pysrc\LED.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Work\ledPwm.py">
+    <Compile Include="Work\Pysrc\ledPwm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\ledPwml2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\pk.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\pwml.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\pwml1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\scale.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\scaleif.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\switch.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\swl.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\Ultrasonic01.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -60,6 +90,8 @@
     <Folder Include="Image for github\" />
     <Folder Include="Work\Db\" />
     <Folder Include="Work\" />
+    <Folder Include="Work\Pysrc\Flask\" />
+    <Folder Include="Work\Pysrc\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Image for github\다이오드.jpg" />
