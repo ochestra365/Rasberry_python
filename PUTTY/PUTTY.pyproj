@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>8cef6794-1a02-4ff8-97d0-1d6f1b8e206c</ProjectGuid>
+    <ProjectGuid>3aef3d57-7b21-4005-b85c-cf496a3f0794</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SWITCH_BUTTON.py</StartupFile>
+    <StartupFile>PUTTY.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Rasberry_python</Name>
-    <RootNamespace>Rasberry_python</RootNamespace>
+    <Name>PUTTY</Name>
+    <RootNamespace>PUTTY</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,16 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="button2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="LED_4_BUTTON.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="SWITCH_BUTTON.py" />
-    <Compile Include="variance.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="PUTTY.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Image for github\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image for github\다이오드.jpg" />
+    <Content Include="Image for github\라즈베리 파이 연결.jpg" />
+    <Content Include="Image for github\스위치.jpg" />
+    <Content Include="Image for github\스피커.jpg" />
+    <Content Include="Image for github\저항.jpg" />
+    <Content Include="Image for github\점프선.jpg" />
+    <Content Include="Image for github\초음파센서.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
