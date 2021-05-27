@@ -33,6 +33,24 @@
     <Compile Include="Work\Pysrc\Flask\appLedTest.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Work\Pysrc\Flask\appLedTest02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\Flask\flask01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\Flask\flaskTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\Flask\LEDCONTROL.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\Flask\LedControlLoop.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Pysrc\Flask\webLed.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Work\Pysrc\gpio_test.py" />
     <Compile Include="Work\Db\sqllite.py">
       <SubType>Code</SubType>
@@ -92,6 +110,7 @@
     <Folder Include="Work\" />
     <Folder Include="Work\Pysrc\Flask\" />
     <Folder Include="Work\Pysrc\" />
+    <Folder Include="Work\Pysrc\Flask\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Image for github\다이오드.jpg" />
@@ -101,6 +120,7 @@
     <Content Include="Image for github\저항.jpg" />
     <Content Include="Image for github\점프선.jpg" />
     <Content Include="Image for github\초음파센서.jpg" />
+    <Content Include="Work\Pysrc\Flask\templates\WebPage1.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
