@@ -22,17 +22,23 @@ Study Python
 ## 2. 부품
 ------------
 <img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EB%8B%A4%EC%9D%B4%EC%98%A4%EB%93%9C.jpg" width="30%" height="40%" ><br>
-다이오드<br>
+다이오드 : 전기가 일정한 방향으로 흐르게 한다.
+<br>
 <img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EC%8A%A4%EC%9C%84%EC%B9%98.jpg" width="30%" height="40%" ><br>
-스위치<br>
+스위치 : 접지가 이뤄지게 된다.
+<br>
 <img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EC%8A%A4%ED%94%BC%EC%BB%A4.jpg" width="30%" height="40%" ><br>
-스피커<br>
+스피커 : 진동의 폭을 다룬다.
+<br>
 <img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EC%A0%80%ED%95%AD.jpg" width="30%" height="40%" ><br>
-저항<br>
+저항 : 노드간 이어주거나 전압을 낮춰준다.
+<br>
 <img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EC%A0%90%ED%94%84%EC%84%A0.jpg" width="30%" height="40%" ><br>
-점프선(암,수 구분)<br>
+점프선(암,수 구분) : 각 센서나 브래드보드와 결합하여 사용
+<br>
 <img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EC%B4%88%EC%9D%8C%ED%8C%8C%EC%84%BC%EC%84%9C.jpg" width="30%" height="40%" ><br>
-초음파 센서<br>
+초음파 센서 : 초음파를 날려 시간을 계산한다. 소리의 속도는 340m/s 따라서 이에 해당하는 수식을 적어주고 거리를 입력하면 쉘창에 결과가 출력된다.
+<br>
 ## 3. PUTTY 리눅스
 
 ## 4. VNC
