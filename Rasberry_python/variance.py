@@ -21,3 +21,10 @@ while 1:
         GPIO.output(LED,ON)
     else:
         GPIO.output(LED,OFF)
+# LED is operated when button is not pressed
+button_value=GPIO.input(BUTTON)
+
+if(button_value==BUTTON_PRESS):
+    GPIO.output(LED.ON)
+else:
+    GPIO.output(LED,OFF)
