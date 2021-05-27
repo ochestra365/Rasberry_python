@@ -36,6 +36,9 @@
     <Compile Include="Work\Pysrc\Flask\appLedTest02.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Work\Pysrc\Flask\evaluation.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Work\Pysrc\Flask\flask01.py">
       <SubType>Code</SubType>
     </Compile>
@@ -58,6 +61,7 @@
     <Compile Include="Work\Pysrc\hello.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Work\Pysrc\hyunhwa.py" />
     <Compile Include="Work\Pysrc\if.py">
       <SubType>Code</SubType>
     </Compile>
