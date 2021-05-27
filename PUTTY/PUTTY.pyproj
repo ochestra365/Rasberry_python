@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3aef3d57-7b21-4005-b85c-cf496a3f0794</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PUTTY.py</StartupFile>
+    <StartupFile>Work\gpio_test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,45 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PUTTY.py" />
+    <Compile Include="Work\add.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\cal.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\Db\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\gpio_test.py" />
+    <Compile Include="Work\Db\sqllite.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\hello.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\if.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\int.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\int2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\key_scale.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\LED.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Work\ledPwm.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Image for github\" />
+    <Folder Include="Work\Db\" />
+    <Folder Include="Work\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Image for github\다이오드.jpg" />
