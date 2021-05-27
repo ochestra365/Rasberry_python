@@ -1,7 +1,7 @@
 # Rasberry_python
 Study Python
 <br>
-<img src="https://github.com/ochestra365/StudyAspNet21/blob/main/BasicMVCModel2/MyPortpolioWeb/Image_for_Git_hub/%ED%94%84%EB%A1%9C%ED%95%84.png" width="100%" height="100%" ><br><br>
+<img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%20%ED%8C%8C%EC%9D%B4%20%EC%97%B0%EA%B2%B0.jpg" width="100%" height="100%" ><br><br>
 --------------
 ## 목차 <br>
 1. 파이썬
