@@ -167,6 +167,5 @@ if __name__ == "__main__":
 
 ##연산 종료 시 GPIO의 내용을 휘발시켜서 다시 쓸 수 있게 함
 except KeyboardInterrupt:
-    GPIO.cleanup()
-
+    GPIO.cleanup()##
 
