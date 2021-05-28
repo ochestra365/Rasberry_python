@@ -48,34 +48,34 @@ int main()
         
     switch(a[i]){
     case 'do' : 
-        printf("%d, ",do);
+        printf("'%d, '",do);
         break;
     case 're' : 
-        printf("%d, ",re);
+        printf("'%d, '",re);
         break;
     case 'me' :
-         printf("%d",me);
+         printf("'%d,'",me);
          break;
     case 'fa' :
-       printf("%d, ",fa);
+       printf("'%d,', ",fa);
        break;
     case 'sol' :
-         printf("%d, ",sol);
+         printf("'%d, '",sol);
          break;
     case 'ra' :
-         printf("%d, ",ra);
+         printf("'%d, '",ra);
          break;
     case 'si' :
-          printf("%d, ",si);
+          printf("''%d, '",si);
           break;
     case 'dodo' :
-         printf("%d, ",dodo);
+         printf("'%d, '",dodo);
          break;
     case 'rere' :
-         printf("%d, ",rere);
+         printf("'%d, '",rere);
          break;
      case 'rere' :
-         printf("%d, ",meme);
+         printf("'%d, '",meme);
          break;
 }
     }
