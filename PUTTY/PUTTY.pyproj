@@ -71,6 +71,9 @@
     <Compile Include="Work\Pysrc\int2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Work\Pysrc\keyin.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Work\Pysrc\key_scale.py">
       <SubType>Code</SubType>
     </Compile>
