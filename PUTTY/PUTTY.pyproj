@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Work\evaluation.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Work\Pysrc\add.py">
       <SubType>Code</SubType>
     </Compile>
