@@ -21,7 +21,7 @@ Study Python
 ~~~
 
 ~~~
-계이름 주파수 출력 
+계이름 주파수 출력 한글로 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
