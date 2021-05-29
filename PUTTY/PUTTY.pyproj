@@ -113,6 +113,9 @@
     <Compile Include="Work\Pysrc\Ultrasonic01.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Work\Pysrc\연습장.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Image for github\" />
