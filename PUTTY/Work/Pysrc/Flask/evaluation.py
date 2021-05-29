@@ -21,10 +21,9 @@ GPIO.setup(ledPin,GPIO.OUT)
 GPIO.setup(speakerPin,GPIO.OUT)
 GPIO.setup(triggerPin,GPIO.OUT)
 GPIO.setup(echoPin,GPIO.IN)
-GPIO.setup(pinPiezo,GPIO.OUT)
 
 p=GPIO.PWM(speakerPin,100)
-Buzz=GPIO.PWM(pinPiezo,440)
+
 
 @app.route('/')
 def home():
@@ -77,7 +76,76 @@ def data():
 			distance=rtTotime*34000/2
 			print("distance : %2f cm"%distance)
 			time.sleep(1)
-			 
+
+			if distance <= 30 and distance >20:
+				while True:
+					p.start(50)
+					p.ChangeFrequency(262)
+					time.sleep(1)
+					p.stop()
+					time.sleep(1)
+
+					GPIO.output(triggerPin,GPIO.LOW)
+					time.sleep(0.00001)
+					GPIO.output(triggerPin,GPIO.HIGH)
+
+					while GPIO.input(echoPin)==GPIO.LOW:
+						start=time.time()
+					while GPIO.input(echoPin)==GPIO.HIGH:
+						stop=time.time()
+
+					rtTotime=stop-start
+					distance=rtTotime*34000/2
+					print("distance : %.2fcm" %distance)
+					time.sleep(1)
+					if distance <20:
+						break
+						
+			elif distance <= 20 and distance >10:
+				while True:
+					p.start(50)
+					p.ChangeFrequency(294)
+					time.sleep(0.5)
+					p.stop()
+					time.sleep(0.5)
+
+					GPIO.output(triggerPin,GPIO.LOW)
+					time.sleep(0.00001)
+					GPIO.output(triggerPin,GPIO.HIGH)
+
+					while GPIO.input(echoPin)==GPIO.LOW:
+						start=time.time()
+					while GPIO.input(echoPin)==GPIO.HIGH:
+						stop=time.time()
+
+					rtTotime=stop-start
+					distance = rtTotime*34000/2
+					print("distance : %.2f cm" % distance)
+					time.sleep(1)
+					if distance < 10:
+						break
+			elif distance <=10:
+				while True:
+					p.start(50)
+					p.ChangeFrequency(392)
+					time.sleep(0.1)
+					p.stop()
+					time.sleep(0.1)
+
+					GPIO.output(triggerPin,GPIO.LOW)
+					time.sleep(0.00001)
+					GPIO.output(triggerPin,GPIO.HIGH)
+
+					while GPIO.input(echoPin)==GPIO.LOW:
+						start=time.time()
+					while GPIO.input(echoPin)==GPIO.HIGH:
+						stop=time.time()
+					rtTotime=stop-start
+					distance=rtTotime*34000/2
+					print("distance : %.2f cm"%distance)
+					time.sleep(1)
+					if distance < 3:
+						continue
 if __name__=="__main__":
 	app.run(host="0.0.0.0",port="8080")
 
