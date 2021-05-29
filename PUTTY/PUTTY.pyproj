@@ -133,6 +133,7 @@
     <Content Include="Image for github\저항.jpg" />
     <Content Include="Image for github\점프선.jpg" />
     <Content Include="Image for github\초음파센서.jpg" />
+    <Content Include="Work\Pysrc\Flask\index.html" />
     <Content Include="Work\Pysrc\Flask\templates\WebPage1.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

@@ -42,6 +42,12 @@ def data():
 		GPIO.setmode(GPIO.BCM)
 		GPIO.setup(ledPin,GPIO.OUT)
 		return home()
+	elif data=='LEDloop':
+		while True:
+			GPIO.output(ledPin,True)
+			time.sleep(1)
+			GPIO.output(ledPin,False)
+			time.sleep(1)
 	elif data=="clean":
 		GPIO.cleanup()
 		return "cleanup"

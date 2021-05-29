@@ -27,6 +27,12 @@
     <Compile Include="LED_4_BUTTON.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="LED_ON_3sec.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="led_on_off_but.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SWITCH_BUTTON.py" />
     <Compile Include="variance.py">
       <SubType>Code</SubType>
