@@ -19,6 +19,70 @@ Study Python
 라즈베리 파이 구동은 파이썬으로 하는 것이 유리하다. 어차피 임베디드 시스템에 들어가라는 거라 경량이기 때문에 C로하면 무거워진다. 그리고 라즈베리파이 자동으로 깔려져 있고, 오픈 소스라서 좋다. 또한 인터프리터 언어라 컴파일 없이 바로 그 결과가 물리세계로 전달되는 것이 매력적이다.
 매우 직관적이고, 가시성이 높은 매력적인 언어이다. 들여쓰기가 중요하다지만 본인의 논리가 충분하다면 헷갈리지 않는다.
 ~~~
+
+~~~
+계이름 주파수 출력 한글로 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int main()
+{
+    int do =262;
+    int re=294;
+    int me=349;
+    int fa=392;
+    int sol=440;
+    int ra=494;
+    int si=523;
+    int dodo=587;
+    int rere=659;
+    int meme= 699;
+    
+    char ary[dummy data should be in];
+    
+    int size = sizeof(ary)/sizeof(ary[0]);
+    
+    for(int i=0;i<size;i++){
+        
+    switch(a[i]){
+    case 'do' : 
+        printf("'%d, '",do);
+        break;
+    case 're' : 
+        printf("'%d, '",re);
+        break;
+    case 'me' :
+         printf("'%d,'",me);
+         break;
+    case 'fa' :
+       printf("'%d,', ",fa);
+       break;
+    case 'sol' :
+         printf("'%d, '",sol);
+         break;
+    case 'ra' :
+         printf("'%d, '",ra);
+         break;
+    case 'si' :
+          printf("''%d, '",si);
+          break;
+    case 'dodo' :
+         printf("'%d, '",dodo);
+         break;
+    case 'rere' :
+         printf("'%d, '",rere);
+         break;
+     case 'rere' :
+         printf("'%d, '",meme);
+         break;
+}
+    }
+    
+	return 0;
+}
+~~~
 ## 2. 부품
 ------------
 <img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EB%8B%A4%EC%9D%B4%EC%98%A4%EB%93%9C.jpg" width="30%" height="40%" ><br>
