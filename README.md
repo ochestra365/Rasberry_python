@@ -2,6 +2,8 @@
 Study Python
 <br>
 <img src="https://github.com/ochestra365/Rasberry_python/blob/main/PUTTY/Image%20for%20github/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%20%ED%8C%8C%EC%9D%B4%20%EC%97%B0%EA%B2%B0.jpg" width="100%" height="100%" ><br><br>
+<img src="https://github.com/ochestra365/Data_structure_learned_by_C/blob/main/Sensing1.jpg" width="100%" height="100%" ><br><br>
+<img src="https://github.com/ochestra365/Data_structure_learned_by_C/blob/main/Sensing2.jpg" width="100%" height="100%" ><br><br>
 --------------
 ## 목차 <br>
 1. 파이썬
